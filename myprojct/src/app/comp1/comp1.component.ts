@@ -11,5 +11,6 @@ export class Comp1Component implements OnInit {
 
   ngOnInit(): void {
   }
-
+dta = "works lalqla qwsdcfv"
+c1="cls"
 }

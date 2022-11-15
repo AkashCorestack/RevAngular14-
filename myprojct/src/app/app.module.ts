@@ -22,6 +22,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { SignupComponent } from './signup/signup.component';
+import { TestmModule } from './testm/testm.module';
 
 @NgModule({
   declarations: [
@@ -32,6 +37,7 @@ import { MatSelectModule } from '@angular/material/select';
     Childcomp2Component,
     CompanyComponent,
     PopupComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +56,10 @@ import { MatSelectModule } from '@angular/material/select';
     MatCheckboxModule,
     MatCardModule,
     MatSelectModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    TestmModule
   ],
   providers: [],
   bootstrap: [AppComponent],

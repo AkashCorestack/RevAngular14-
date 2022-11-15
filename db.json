@@ -1,0 +1,20 @@
+{
+  "Company": [
+    {
+      "id": 6,
+      "name": "changede3dfv ",
+      "empcount": "1",
+      "revenue": "11",
+      "address": "1",
+      "isactive": true
+    },
+    {
+      "id": 8,
+      "name": "1",
+      "empcount": "1111111111111",
+      "revenue": "11",
+      "address": "1",
+      "isactive": true
+    }
+  ]
+}

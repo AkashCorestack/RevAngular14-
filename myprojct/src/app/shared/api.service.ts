@@ -17,6 +17,7 @@ export class ApiService {
   getcompanybyid(id: any): Observable<companymodel> {
     return this.http.get<companymodel>(this.apiurl + '/' + id);
   }
+  
 
 
   removecompanybyid(id: any){
@@ -28,6 +29,8 @@ export class ApiService {
   }
 
   createcompany(companydata: any) {
+    console.log(companydata);
+    
     return this.http.post(this.apiurl, companydata);
   }
 }

@@ -27,6 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SignupComponent } from './signup/signup.component';
 import { TestmModule } from './testm/testm.module';
+import { Login2Component } from './login2/login2.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { TestmModule } from './testm/testm.module';
     CompanyComponent,
     PopupComponent,
     SignupComponent,
+    Login2Component,
   ],
   imports: [
     BrowserModule,
@@ -59,9 +61,16 @@ import { TestmModule } from './testm/testm.module';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    TestmModule
+    TestmModule,
   ],
-  providers: [],
+  providers: [
+
+
+    
+  ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+
+
+}

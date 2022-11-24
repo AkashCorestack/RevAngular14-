@@ -28,6 +28,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { SignupComponent } from './signup/signup.component';
 import { TestmModule } from './testm/testm.module';
 import { Login2Component } from './login2/login2.component';
+import { FiltersComponent } from './filters/filters.component';
+import { Mypipe1Pipe } from './pipes/mypipe1.pipe';
+import { FiltertestComponent } from './filtertest/filtertest.component';
+import { RadiocheckComponent } from './radiocheck/radiocheck.component';
+import { GojsTestComponent } from './gojs-test/gojs-test.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +45,11 @@ import { Login2Component } from './login2/login2.component';
     PopupComponent,
     SignupComponent,
     Login2Component,
+    FiltersComponent,
+    Mypipe1Pipe,
+    FiltertestComponent,
+    RadiocheckComponent,
+    GojsTestComponent,
   ],
   imports: [
     BrowserModule,

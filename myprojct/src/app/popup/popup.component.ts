@@ -10,6 +10,7 @@ import * as alertify from 'alertifyjs';
   styleUrls: ['./popup.component.css'],
 })
 export class PopupComponent implements OnInit {
+  
   editdata: any;
 
   constructor(
@@ -18,6 +19,7 @@ export class PopupComponent implements OnInit {
     private dialog: MatDialog,
     @Inject(MAT_DIALOG_DATA) public data: any
   ) {}
+
   ngOnInit(): void {
     if (this.data.id != '' && this.data.id != null) {
       this.serv.getcompanybyid(this.data.id).subscribe((dta) => {
@@ -57,7 +59,7 @@ export class PopupComponent implements OnInit {
       }
 
       else{
-
+    
       this.serv.createcompany(this.companyform.value).subscribe((arg) => {
         this.closepopup();
           alertify.success('saved successfully.');
